@@ -1,0 +1,72 @@
+
+US MathWorks Support <support@mathworks.com>
+AttachmentsOct 9 (2 days ago)
+
+to me 
+Hello Mamadou, 
+
+I am writing in reference to your Technical Support Case #02779178 regarding 'Serial port tcpip'. 
+
+
+Based on my understanding of your workflow, I believe the attached example may be related to your workflow. This example enables the user to share a tcpip object globally among other blocks within the Simulink model. 
+
+In the attached "tcpip_init_edit.slx" model, two MATLAB function blocks are used. The first MATLAB function block defines a tcpip object as "persistent" data type and save it to the workspace:
+ 
+function y = fcn(u)
+coder.extrinsic('tcpip');
+coder.extrinsic('assignin');
+persistent obj
+if isempty(obj)
+    obj=tcpip('rhost');
+    assignin('base','objWs',obj);
+end
+y = u;
+
+Then, the second MATLAB function block reads the tcpip object from the workspace using the "evalin" command and "get" the "BytesAvailable" value from the tcpip object:
+ 
+function y = fcn(u)
+persistent obj
+y = 0;
+coder.extrinsic('evalin');
+coder.extrinsic('get');
+if isempty(obj)
+    obj = evalin('base','objWs');
+end
+bytesAvail=get(obj,'BytesAvailable');
+y = bytesAvail;
+
+When using Stateflow, you may include MATLAB Function blocks within the charts to read and write from the TCP/IP object in the MATLAB Base Workspace. You can call these functions from within states. Please see the attached model to see how this is implemented.
+
+
+If you have any additional questions, please refer to my previous email and provide the requested information along with your questions and I will be happy to further assist you.
+
+
+Sincerely, 
+Mark Schwab
+MathWorks Technical Support Department 
+
+Self-Service: http://www.mathworks.com/support 
+File Exchange and MATLAB Answers: http://www.mathworks.com/matlabcentral/ 
+
+
+
+
+--------------- Original Message ---------------
+From: US MathWorks Support [support@mathworks.com]
+Sent: 10/5/2017 11:01 AM
+To: tuf27959@temple.edu
+Subject: Re: Serial port tcpip [ ]
+
+Dear Mamadou, 
+
+This is in reference to your Technical Support Case #02779178 regarding 'Serial port tcpip'. 
+
+In order to better assist you, please send us the following information: 
+
+1) A detailed description of the issue you are encountering. When you say you are having trouble sending two different signals, what do you mean by sending? Are you trying to output these two signals from the stateflow block? Are you communicating with hardware?
+
+2) The exact error messages you are receiving, if any.
+
+3) The precise steps needed to reproduce the issue.
+
+4) Any relevant files, both code and data. If you could send me your model, I can see exactly what you are referring to and better analyze the cause.
