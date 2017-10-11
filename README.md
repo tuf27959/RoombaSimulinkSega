@@ -11,4 +11,4 @@ I incorporate a real-time pacer to be able to see the changes.
 - Input 1 turn ON and input 0 turn OFF
 - The output toggle between the two secondary blocks
 **Wheel Control Library**
-
+![Main Switch Block](https://github.com/tuf27959/RoombaSimulinkSega/blob/master/Main%20Switch%20Library.png)
