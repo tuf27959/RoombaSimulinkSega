@@ -6,4 +6,7 @@ a real-time pacer to be able to see the changes.
 ```
 **Main Switch Library**
 ![Main Switch Block](https://github.com/tuf27959/RoombaSimulinkSega/blob/master/Main%20Switch%20Library.png)
-
+- This block establish the connection between Simulink and the Roomba.
+- It communicate by using the with the Wifi module using the tcpip function 
+- Input 1 turn ON and input 0 turn OFF
+- The output toggle between the two secondary blocks
