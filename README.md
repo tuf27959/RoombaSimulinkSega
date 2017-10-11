@@ -11,8 +11,10 @@ I incorporate a real-time pacer to be able to see the changes.
 - Input 1 turn ON and input 0 turn OFF
 - The output toggle between the two secondary blocks
 **Wheel Control Library**
-![Main Switch Block](https://github.com/tuf27959/RoombaSimulinkSega/blob/master/Wheel%20Control%20Library.png)
+![Wheel Control library](https://github.com/tuf27959/RoombaSimulinkSega/blob/master/Wheel%20Control%20Library.png)
 - The Wheel Control library has three inputs and one output
 - Left Wheel and Right Wheel inputs control the linear speed of the wheel
 - inputv is the output from the Main Switch Library
 - The Status output show the Status of the library Block
+**Sensor Test Library**
+![Sensor Test Library](https://github.com/tuf27959/RoombaSimulinkSega/blob/master/Sensor%20Test%20Library.png)
