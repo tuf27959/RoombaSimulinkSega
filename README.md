@@ -20,3 +20,5 @@ I incorporate a real-time pacer to be able to see the changes.
 
 **Sensor Test Library**
 ![Sensor Test Library](https://github.com/tuf27959/RoombaSimulinkSega/blob/master/Sensor%20Test%20Library.png)
+- The inputv is received from the main switch block
+- The display will display a 1 if there is an obstacle blocking the sensor
