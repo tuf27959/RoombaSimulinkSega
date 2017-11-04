@@ -38,7 +38,5 @@ I incorporate a real-time pacer to be able to see the changes.
 
 **Example File**
 
-![Example File](https://github.com/tuf27959/RoombaSimulinkSega/blob/master/Example%20File.png)
-- The example file show the running simulink blocks when the switch is ON 
-- The display for the Sensor block sensor 5 with an obstacle and state 1
-- The display for wheel block have the right wheel rotating ccw -0.1 and the left wheel rotating cw 0.1
+![Example File](https://github.com/tuf27959/RoombaSimulinkSega/blob/master/Project2/Figures/Project2.png) 
+- The Example file show the sensor libraries conections and how the all those output control the roomba.
