@@ -43,3 +43,7 @@ The project have Three sensor Blocks one controller logic Block and one Wheel Co
 
 ![Example File](https://github.com/tuf27959/RoombaSimulinkSega/blob/master/Project2/Figures/Project2.png) 
 - The Example file show the sensor libraries conections and how the all those output control the roomba.
+
+**Obstacle Avoidance Logic**
+![State Flow Logic](https://github.com/tuf27959/RoombaSimulinkSega/blob/master/Project2/Figures/StateFlow_Logic.png)
+- This logic has two blocks working in parallel one that takes care of the obstacles reading the sensor from the Range sensor block and Bump block, and one for safety stopping the Roomba when the wheels are up.
