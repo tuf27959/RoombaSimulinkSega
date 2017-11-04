@@ -32,7 +32,7 @@ I incorporate a real-time pacer to be able to see the changes.
 - Bump send a 1 for each sensor activated.
 
 **Alarm Library**
-
+![Alarm Library](https://github.com/tuf27959/RoombaSimulinkSega/blob/master/Project2/Figures/Alarm%20Library.png)
 - The Alarm Library Plays a short beep tone.
 
 **Example File**
