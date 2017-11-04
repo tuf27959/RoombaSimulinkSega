@@ -5,13 +5,15 @@ These libraries are for controlling iRoomba wheels and IR sensor using Wifi modu
 here is the link to purchase the wifi module: http://www.roowifi.com/products-page/
 I incorporate a real-time pacer to be able to see the changes.
 Project 2: Roomba Control Algorithm for Obstacle Avoidance using Stateflow 
+The Roomba will navigate avoiding obstacles and when the wheels are off the ground it will stop and make a beep sound.
+The project have Three sensor Blocks one controller logic Block and one Wheel Contoller.
 ```
 **Main Switch Library**
 ![Main Switch Block](https://github.com/tuf27959/RoombaSimulinkSega/blob/master/Main%20Switch%20Library.png)
 - This block establish the connection between Simulink and the Roomba.
 - It communicate by using the with the Wifi module using the tcpip function 
 - Input 1 turn ON and input 0 turn OFF
-- The output toggle between the two secondary blocks
+- The output toggle between the secondary blocks
 
 **Wheel Control Library**
 ![Wheel Control library](https://github.com/tuf27959/RoombaSimulinkSega/blob/master/Wheel%20Control%20Library.png)
