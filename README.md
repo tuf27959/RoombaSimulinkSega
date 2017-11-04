@@ -25,6 +25,12 @@ I incorporate a real-time pacer to be able to see the changes.
 - The inputv is received from the main switch block
 - The display will display a 1 if there is an obstacle blocking the sensor
 
+**Bump Sensor Library**
+![Bump Sensor Library](https://github.com/tuf27959/RoombaSimulinkSega/blob/master/Project2/Figures/Bump_Sensor_Library.png)
+- The Bump has five local sensors Front Bump, Left bump, Right Bump, Left wheel drop, and Right wheel drop.
+- The block has one input which the controller and one output Bump size 5 double.
+- Bump send a 1 for each sensor activated.
+
 **Alarm Library**
 
 - The Alarm Library Plays a short beep tone.
