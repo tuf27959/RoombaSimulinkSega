@@ -4,6 +4,7 @@
 These libraries are for controlling iRoomba wheels and IR sensor using Wifi module 10.0.0.1
 here is the link to purchase the wifi module: http://www.roowifi.com/products-page/
 I incorporate a real-time pacer to be able to see the changes.
+Project 2: Roomba Control Algorithm for Obstacle Avoidance using Stateflow 
 ```
 **Main Switch Library**
 ![Main Switch Block](https://github.com/tuf27959/RoombaSimulinkSega/blob/master/Main%20Switch%20Library.png)
