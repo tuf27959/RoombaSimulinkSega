@@ -1,7 +1,8 @@
 # RoombaSimulinkSega
-**Sega Diallo**
+**Sega Diallo Temple University School of Engineering**
 ```
 These libraries are for controlling iRoomba wheels and IR sensor using Wifi module 10.0.0.1
+here is the link to purchase the wifi module: http://www.roowifi.com/products-page/
 I incorporate a real-time pacer to be able to see the changes.
 ```
 **Main Switch Library**
@@ -23,6 +24,10 @@ I incorporate a real-time pacer to be able to see the changes.
 ![Sensor Test Library](https://github.com/tuf27959/RoombaSimulinkSega/blob/master/Sensor%20Test%20Library.png)
 - The inputv is received from the main switch block
 - The display will display a 1 if there is an obstacle blocking the sensor
+
+**Alarm Library**
+
+- The Alarm Library Plays a short beep tone.
 
 **Example File**
 
