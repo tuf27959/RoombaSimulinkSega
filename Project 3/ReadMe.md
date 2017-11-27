@@ -1,6 +1,7 @@
 
 # RoombaROS
-**Sega Diallo Temple University School of Engineering**
+**by Sega Diallo 
+ Temple University School of Engineering**
 
 **Advisor Dr Li Bai**
 ```
