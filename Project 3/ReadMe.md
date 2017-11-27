@@ -14,7 +14,7 @@ For the project the Roomba is connected via USB serial cable.
 Here is an overview how it works
 ![ROS Publisher-Subscriber](https://github.com/tuf27959/RoombaSimulinkSega/blob/master/Project%203/Figure/ROS.png)
 In this Project the Talker/Publisher is the Sensor.py
-the Sensor.py is made a Publisher by adding the following line:
+The Sensor.py is made a Publisher by adding the following line:
 ```
 pub = rospy.Publisher('IR_sensor',Int32MultiArray)
 ```
