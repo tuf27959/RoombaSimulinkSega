@@ -62,4 +62,16 @@ On the third terminal window which is for the Subscriber run the following line:
 ```
 rosrun roomba wheel.py
 ```
+If you want to see the list of active topics open a new window and run the following line:
+```
+rostopic list
+```
+To check the Published message sent
+```
+rostopic echo IR_sensor
+```
+To find the Publisher and Subscriber of the topic:
+```
+rostopic info IR_sensor
+```
 
