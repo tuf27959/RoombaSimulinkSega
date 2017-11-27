@@ -9,7 +9,7 @@ The Publisher is for the Range Sensor State which gives the status of the availa
 The Subscriber is for the Left and Right Wheel Control. 
 For the project the Roomba is connected via USB serial cable.
 ```
-Here is an overview how it work
+Here is an overview how it works
 ![ROS Publisher-Subscriber](https://github.com/tuf27959/RoombaSimulinkSega/blob/master/Project%203/Figure/ROS.png)
 In this Project the Talker/Publisher is the Sensor.py
 the Sensor.py is made a Publisher by adding the following line:
