@@ -31,3 +31,9 @@ Then create a package into the workspace
 cd ~/catkin_ws/src
 catkin_create_pkg roomba rospy
 ```
+Then Go into Roomba source folder directory to add the python scripts
+```
+cd ~/catkin_ws/src/roomba/src
+```
+Paste the wheel and sensor scripts by typing the following line:
+```
