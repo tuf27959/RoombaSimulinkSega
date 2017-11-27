@@ -49,3 +49,17 @@ source devel/setup.bash
 ```
 We are all set the next steps are to open two secondary terminal windows one for the Subscriber and 
 and one for the Publisher. The main terminal window is call the Master.
+
+For the Master window we will first log in to the pi then run the following line:
+```
+roscore
+```
+Then the second terminal window is for the Publisher run the following line:
+```
+rosrun roomba sensor.py
+```
+On the third terminal window which is for the Subscriber run the following line:
+```
+rosrun roomba wheel.py
+```
+
