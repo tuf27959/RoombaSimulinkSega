@@ -5,13 +5,23 @@
 **Advisor Dr Li Bai**
 ```
 This project is to create a ROS Publisher and Subscriber for the Roomba. 
-The Publisher is for the Range Sensor State which gives the available six sensors status. 
+The Publisher is for the Range Sensor State which gives the status of the available six sensors status. 
 The Subscriber is for the Left and Right Wheel Control. 
 For the project the Roomba is connected via USB serial cable.
 ```
 Here is an overview how it work
 ![ROS Publisher-Subscriber](https://github.com/tuf27959/RoombaSimulinkSega/blob/master/Project%203/Figure/ROS.png)
+In this Project the Talker/Publisher is the Sensor.py
+the Sensor.py is made a Publisher by adding the following line:
+```
+pub = rospy.Publisher('IR_sensor',Int32MultiArray)
+```
+The Lister/Subscriber is the Wheel.py
 
+The wheel.py subscribe to the Sensor.py topic by adding the following onto the wheel.py script
+```
+sub = rospy.Subscriber('IR_sensor', Int32MultiArray, callback)
+```
 
 **Pre-requisits**
 1. For basic information about the Raspberry pi you can refer to the following link(https://www.raspberrypi.org).
