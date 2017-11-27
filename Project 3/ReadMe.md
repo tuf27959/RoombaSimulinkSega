@@ -37,4 +37,15 @@ cd ~/catkin_ws/src/roomba/src
 ```
 Paste the wheel and sensor scripts by typing the following line:
 ```
-git clone 
+git clone https://github.com/tuf27959/RoombaSimulinkSega/tree/master/Project%203
+```
+Then go back to Catkin_ws
+```
+cd ~/catkin_ws
+```
+Type the bash Command
+```
+source devel/setup.bash
+```
+We are all set the next steps are to open two secondary terminal windows one for the Subscriber and 
+and one for the Publisher. The main terminal window is call the Master.
