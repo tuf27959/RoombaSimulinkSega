@@ -37,3 +37,4 @@ cd ~/catkin_ws/src/roomba/src
 ```
 Paste the wheel and sensor scripts by typing the following line:
 ```
+git clone 
