@@ -10,7 +10,9 @@ The Subscriber is for the Left and Right Wheel Control.
 For the project the Roomba is connected via USB serial cable.
 ```
 Here is an overview how it work
-![ROS Publisher-Subscriber]
+![ROS Publisher-Subscriber](https://github.com/tuf27959/RoombaSimulinkSega/blob/master/Project%203/Figure/ROS.png)
+
+
 **Pre-requisits**
 1. For basic information about the Raspberry pi you can refer to the following link(https://www.raspberrypi.org).
 2. Ubuntu is a requirement for this project, the installation instruction can be found at the following link(https://wiki.ubuntu.com/ARM/RaspberryPi).
